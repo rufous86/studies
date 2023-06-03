@@ -8,4 +8,4 @@
 ||[(colab) hw_text_classification.ipynb](https://colab.research.google.com/github/rufous86/studies/blob/main/DLS_NLP/04_text_classification_with_RNN/hw_text_classification.ipynb)|
 |05_language_modeling|[(colab) language_modelling.ipynb](https://colab.research.google.com/github/rufous86/studies/blob/main/DLS_NLP/05_language_modeling/language_modelling.ipynb)|
 ||[(colab) hw_language_modelling.ipynb](https://colab.research.google.com/github/rufous86/studies/blob/main/DLS_NLP/05_language_modeling/hw_language_modelling.ipynb)|
-|06_seq2seq_attention|[seq2seq_attention.pdf](https://github.com/rufous86/studies/blob/main/DLS_NLP/06_seq2seq_attention/Seq2Seq%2C%20Attention.pdf)|
+|06_seq2seq_attention|[seq2seq_attention.pdf](https://github.com/rufous86/studies/blob/main/DLS_NLP/06_seq2seq_attention/seq2seq_attention.pdf)|
