@@ -2,3 +2,6 @@
 oop_basics.ipynb
 test.ipynb
 .ipynb_checkpoints
+data/
+.venv
+venv
