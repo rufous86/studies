@@ -145,3 +145,45 @@ print(match.re) # re.compile('П.+?т')
 ```python
 print(match.string) # Привет, как тебя зовут?
 ```
+
+# `re.search()`
+
+`re.search(pattern, string, flags=0)` - ищет первое совпадение в строке
+
+### Параметры:
+
+- `pattern` - регулярное выражение
+- `string` - строка, к которой нужно применить регулярное выражение
+- `flags` - флаги, пройдём позже
+
+### Возвращаемое значение:
+
+- Объект `Match`, если совпадение было найдено
+- `None`, если нету совпадений
+
+### Примеры использования:
+
+Поиск первой последовательности из трёх чисел в строке:
+
+```python
+import re
+
+
+pattern = r'\d{3}'
+string = 'abc 123 def 456 fed 321 cba'
+# Ищет только одно вхождение, самое первое
+result = re.search(pattern, string)
+
+print(result) # <re.Match object; span=(4, 7), match='123'>
+```
+
+Если в строке ничего не будет найдено, то функция вернёт `None`:
+
+```python
+import re
+
+
+result = re.search(r'\d{3}', "abcdef")
+
+print(result) # None
+```
